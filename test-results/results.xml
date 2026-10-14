@@ -1,0 +1,256 @@
+<testsuites id="" name="" tests="112" failures="0" skipped="2" errors="0" time="398.52367399999997">
+<testsuite name="interface_ledger.spec.ts" timestamp="2026-10-14T04:45:26.522Z" hostname="chromium" tests="4" failures="0" skipped="0" time="14.981" errors="0">
+<testcase name="接口台账管理 › TC-LEDGER-001 台账列表页面正常加载且展示统计卡片" classname="interface_ledger.spec.ts" time="1.792">
+</testcase>
+<testcase name="接口台账管理 › TC-LEDGER-002 按接口名称搜索可过滤结果" classname="interface_ledger.spec.ts" time="4.621">
+</testcase>
+<testcase name="接口台账管理 › TC-LEDGER-003 点击台账行&quot;查看&quot;进入详情弹窗（真实断言）" classname="interface_ledger.spec.ts" time="3.926">
+</testcase>
+<testcase name="接口台账管理 › TC-LEDGER-004 台账列表支持分页切换" classname="interface_ledger.spec.ts" time="4.642">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2026-10-14T04:45:26.522Z" hostname="chromium" tests="9" failures="0" skipped="0" time="22.378" errors="0">
+<testcase name="系统登录 › TC-LOGIN-001 正确账号密码登录成功并进入系统首页" classname="login.spec.ts" time="0.677">
+</testcase>
+<testcase name="系统登录 › TC-LOGIN-002 错误密码提示登录失败且停留在登录页" classname="login.spec.ts" time="0.563">
+</testcase>
+<testcase name="系统登录 › TC-LOGIN-003 用户名为空时提交被拦截或提示失败" classname="login.spec.ts" time="4.594">
+</testcase>
+<testcase name="系统登录 › TC-LOGIN-004 密码为空时提交被拦截或提示失败" classname="login.spec.ts" time="4.655">
+</testcase>
+<testcase name="系统登录 › TC-LOGIN-005 不存在的用户名提示登录失败" classname="login.spec.ts" time="0.573">
+</testcase>
+<testcase name="系统登录 › TC-LOGIN-006 登录成功后页面标题与平台名称一致" classname="login.spec.ts" time="0.672">
+</testcase>
+<testcase name="系统登录 › TC-LOGIN-007 登录表单空值校验：用户名密码均空时提交不进入系统" classname="login.spec.ts" time="3.544">
+</testcase>
+<testcase name="系统登录 › TC-LOGIN-008 登录长度/边界校验：超长用户名按失败处理且不崩溃" classname="login.spec.ts" time="3.501">
+</testcase>
+<testcase name="系统登录 › TC-LOGIN-009 登录注入/特殊字符输入被安全拒绝" classname="login.spec.ts" time="3.599">
+</testcase>
+</testsuite>
+<testsuite name="navigation.spec.ts" timestamp="2026-10-14T04:45:26.522Z" hostname="chromium" tests="6" failures="0" skipped="0" time="16.275" errors="0">
+<testcase name="主界面导航 › TC-NAV-001 登录后首页正常加载且顶部菜单可见" classname="navigation.spec.ts" time="1.557">
+</testcase>
+<testcase name="主界面导航 › TC-NAV-002 一级菜单项完整展示（6 个模块）" classname="navigation.spec.ts" time="1.538">
+</testcase>
+<testcase name="主界面导航 › TC-NAV-003 点击&quot;系统管理中心&quot;展开子菜单包含账号管理等入口" classname="navigation.spec.ts" time="1.58">
+</testcase>
+<testcase name="主界面导航 › TC-NAV-004 点击&quot;账号管理&quot;进入用户管理页面" classname="navigation.spec.ts" time="1.669">
+</testcase>
+<testcase name="主界面导航 › TC-NAV-005 未登录直接访问受保护页面被重定向到登录页" classname="navigation.spec.ts" time="6.38">
+</testcase>
+<testcase name="主界面导航 › TC-NAV-006 右上角显示当前登录用户名" classname="navigation.spec.ts" time="3.551">
+</testcase>
+</testsuite>
+<testsuite name="phase2_business.spec.ts" timestamp="2026-10-14T04:45:26.522Z" hostname="chromium" tests="22" failures="0" skipped="0" time="101.56" errors="0">
+<testcase name="流程工作台 › TC-FLOW-001 我的待办列表加载且支持关键字搜索" classname="phase2_business.spec.ts" time="5.873">
+</testcase>
+<testcase name="流程工作台 › TC-FLOW-002 我的已办列表加载" classname="phase2_business.spec.ts" time="3.339">
+</testcase>
+<testcase name="流程工作台 › TC-FLOW-003 发起流程入口可打开" classname="phase2_business.spec.ts" time="3.567">
+</testcase>
+<testcase name="数据接口开通 › TC-REG-001 接口注册登记列表加载且支持搜索" classname="phase2_business.spec.ts" time="5.898">
+</testcase>
+<testcase name="数据接口开通 › TC-REG-002 接口注册登记&quot;新增&quot;抽屉可打开并关闭" classname="phase2_business.spec.ts" time="6.05">
+</testcase>
+<testcase name="数据接口开通 › TC-APPLY-001 调用申请页展示统计卡片（总数/待审批/已授权）" classname="phase2_business.spec.ts" time="3.343">
+</testcase>
+<testcase name="数据接口开通 › TC-APPLY-002 调用申请列表支持搜索" classname="phase2_business.spec.ts" time="5.886">
+</testcase>
+<testcase name="数据接口开通 › TC-CALLTEST-001 接口开通配置&quot;查看参数&quot;弹窗可打开" classname="phase2_business.spec.ts" time="4.834">
+</testcase>
+<testcase name="数据接口开通 › TC-AUTHCODE-001 授权码管理列表支持搜索" classname="phase2_business.spec.ts" time="5.893">
+</testcase>
+<testcase name="数据接口开通 › TC-AUTHCODE-002 授权码管理状态筛选下拉可用" classname="phase2_business.spec.ts" time="4.158">
+</testcase>
+<testcase name="数据接口开通 › TC-CERT-001 凭证码管理 Tab 切换（凭证码管理/核验日志）" classname="phase2_business.spec.ts" time="4.833">
+</testcase>
+<testcase name="数据接口开通 › TC-UNMANAGED-001 未纳管核查 Tab 与统计卡片渲染" classname="phase2_business.spec.ts" time="3.348">
+</testcase>
+<testcase name="数据接口开通 › TC-UNMANAGED-002 未纳管核查切换到&quot;业务系统&quot;Tab" classname="phase2_business.spec.ts" time="4.899">
+</testcase>
+<testcase name="数据接口开通 › TC-POLICY-001 接口安全策略列表支持搜索" classname="phase2_business.spec.ts" time="5.926">
+</testcase>
+<testcase name="数据接口开通 › TC-POLICY-002 接口安全策略&quot;新建&quot;表单打开即关闭（不提交）" classname="phase2_business.spec.ts" time="5.946">
+</testcase>
+<testcase name="数据接口开通 › TC-LOGFILE-001 日志文件管理列表支持搜索" classname="phase2_business.spec.ts" time="5.907">
+</testcase>
+<testcase name="数据接口开通 › TC-LOGFILE-002 日志文件管理批量操作按钮存在" classname="phase2_business.spec.ts" time="3.308">
+</testcase>
+<testcase name="数据接口开通 › TC-APILOG-001 API接口日志快捷时间项与列表加载" classname="phase2_business.spec.ts" time="3.299">
+</testcase>
+<testcase name="数据接口开通 › TC-RETENTION-001 日志留存快捷时间查询（卡片布局）" classname="phase2_business.spec.ts" time="5.322">
+</testcase>
+<testcase name="数据接口开通 › TC-BIZSYS-001 业务系统管理组织树与列表渲染" classname="phase2_business.spec.ts" time="3.294">
+</testcase>
+<testcase name="数据接口开通 › TC-TLS-001 TLS私钥管理列表与新增入口" classname="phase2_business.spec.ts" time="3.342">
+</testcase>
+<testcase name="数据接口开通 › TC-SECPOLICY-001 安全策略管理表单字段完整性" classname="phase2_business.spec.ts" time="3.295">
+</testcase>
+</testsuite>
+<testsuite name="risk_alert.spec.ts" timestamp="2026-10-14T04:45:26.522Z" hostname="chromium" tests="5" failures="0" skipped="0" time="29.296" errors="0">
+<testcase name="接口异常调用监测及告警 › TC-RISK-001 告警处置列表页面正常加载" classname="risk_alert.spec.ts" time="2.005">
+</testcase>
+<testcase name="接口异常调用监测及告警 › TC-RISK-002 告警列表支持按状态下拉筛选" classname="risk_alert.spec.ts" time="9.258">
+</testcase>
+<testcase name="接口异常调用监测及告警 › TC-RISK-003 按接口名称搜索告警记录" classname="risk_alert.spec.ts" time="7.104">
+</testcase>
+<testcase name="接口异常调用监测及告警 › TC-RISK-004 点击&quot;重置&quot;清空筛选条件" classname="risk_alert.spec.ts" time="6.473">
+</testcase>
+<testcase name="接口异常调用监测及告警 › TC-RISK-005 异常调用监测配置页展示监测行为清单" classname="risk_alert.spec.ts" time="4.456">
+</testcase>
+</testsuite>
+<testsuite name="session_security.spec.ts" timestamp="2026-10-14T04:45:26.522Z" hostname="chromium" tests="5" failures="0" skipped="0" time="14.441" errors="0">
+<testcase name="会话与安全 › TC-SEC-001 同一账号二次登录后原会话被强制下线（单点登录）" classname="session_security.spec.ts" time="1.167">
+</testcase>
+<testcase name="会话与安全 › TC-SEC-002 无效 Token 访问受保护接口返回 401" classname="session_security.spec.ts" time="0.406">
+</testcase>
+<testcase name="会话与安全 › TC-SEC-003 登出后会话失效，需重新登录" classname="session_security.spec.ts" time="0.702">
+</testcase>
+<testcase name="会话与安全 › TC-SEC-004 连续多次错误密码登录不产生异常（无锁定或按策略提示）" classname="session_security.spec.ts" time="8.349">
+</testcase>
+<testcase name="会话与安全 › TC-SEC-005 UI 退出登录：头像菜单→退出登录→确认框确定→跳转登录页" classname="session_security.spec.ts" time="3.817">
+</testcase>
+</testsuite>
+<testsuite name="submenu_coverage.spec.ts" timestamp="2026-10-14T04:45:26.522Z" hostname="chromium" tests="42" failures="0" skipped="0" time="138.735" errors="0">
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-001 流程管理-我的流程-我的待办 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.291">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-002 流程管理-我的流程-我的已办 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.295">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-003 流程管理-我的流程-我的流程 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.285">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-004 流程管理-流程引擎-流程定义 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.269">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-005 流程管理-流程引擎-实例管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.324">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-006 流程管理-流程引擎-任务管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.291">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-007 流程管理-流程引擎-流程脚本 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.298">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-008 流程管理-流程引擎-流程分类 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.273">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-009 流程管理-流程引擎-流程表单 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.28">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-010 流程管理-流程引擎-发起流程 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.309">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-011 流程管理-流程引擎-审批人管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.316">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-012 数据接口开通-注册登记-数据提供方接口注册登记 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.317">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-013 数据接口开通-调用申请-数据接收方接口调用申请 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.33">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-014 数据接口开通-开通配置-接口开通配置 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.319">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-015 数据接口开通-授权码-授权码管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.333">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-016 数据接口开通-凭证码-凭证码及核验管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.311">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-017 接口安全监测-未纳管核查-接口未纳管核查 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.293">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-018 接口安全监测-告警上报-数据接口异常调用告警上报日志 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.279">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-019 接口安全监测-安全策略-接口安全策略管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.282">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-020 接口台账管理-台账-异常台账管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.32">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-021 接口台账管理-日志记录-台账更新日志 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.305">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-022 接口台账管理-日志记录-备案同步记录 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.327">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-023 接口台账管理-日志记录-台账推送历史 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.279">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-024 接口台账管理-日志记录-台账上报历史 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.318">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-025 接口台账管理-巡检-集团巡检任务管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.286">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-026 集省数据联动-日志文件-接口调用日志文件管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.338">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-027 集省数据联动-API日志-API接口日志 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.287">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-028 集省数据联动-完整性-接口日志完整性异常记录 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.302">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-029 集省数据联动-操作日志-接口日志文件操作日志 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.294">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-030 集省数据联动-留存-接口调用日志留存 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.299">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-031 集省数据联动-策略/提供方-接口日志留存策略 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.275">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-032 集省数据联动-策略/提供方-接口日志提供方管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.273">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-033 集省数据联动-策略/提供方-接口日志安全配置 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.279">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-034 系统管理中心-角色权限-验签账号管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.274">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-035 系统管理中心-系统管理-业务系统管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.291">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-036 系统管理中心-系统管理-重点账号异常行为管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.292">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-037 系统管理中心-系统管理-安全策略管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.4">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-038 系统管理中心-系统管理-平台地址管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.509">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-039 系统管理中心-系统管理-数据流转节点管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.331">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-040 系统管理中心-系统管理-TLS私钥管理 页面可达且主体渲染" classname="submenu_coverage.spec.ts" time="3.303">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-042 资源类型管理路由行为（疑似缺陷：重定向首页）" classname="submenu_coverage.spec.ts" time="3.299">
+</testcase>
+<testcase name="二期子菜单可达性覆盖 › TC-SUB-043 顶部一级菜单与二级面板联动展开正常" classname="submenu_coverage.spec.ts" time="3.159">
+</testcase>
+</testsuite>
+<testsuite name="system_manage.spec.ts" timestamp="2026-10-14T04:45:26.522Z" hostname="chromium" tests="10" failures="0" skipped="2" time="16.887" errors="0">
+<testcase name="系统管理中心 › TC-SYS-00x 角色管理页面可访问且正常渲染" classname="system_manage.spec.ts" time="1.456">
+</testcase>
+<testcase name="系统管理中心 › TC-SYS-00x 组织机构管理页面可访问且正常渲染" classname="system_manage.spec.ts" time="1.42">
+</testcase>
+<testcase name="系统管理中心 › TC-SYS-00x 用户组管理页面可访问且正常渲染" classname="system_manage.spec.ts" time="1.668">
+</testcase>
+<testcase name="系统管理中心 › TC-SYS-00x 菜单管理页面可访问且正常渲染" classname="system_manage.spec.ts" time="1.48">
+</testcase>
+<testcase name="系统管理中心 › TC-SYS-00x 通用字典管理页面可访问且正常渲染" classname="system_manage.spec.ts" time="1.452">
+</testcase>
+<testcase name="系统管理中心 › TC-SYS-00x 操作日志管理页面可访问且正常渲染" classname="system_manage.spec.ts" time="1.498">
+</testcase>
+<testcase name="系统管理中心 › TC-SYS-00x 公告管理页面可访问且正常渲染" classname="system_manage.spec.ts" time="1.482">
+</testcase>
+<testcase name="系统管理中心 › TC-SYS-ROLE-001 角色管理页展示角色列表且可通过搜索定位角色" classname="system_manage.spec.ts" time="1.464">
+</testcase>
+<testcase name="系统管理中心 › TC-SYS-DIC-001 字典管理支持新增字典项（表单校验）" classname="system_manage.spec.ts">
+<properties>
+<property name="skip" value="未找到新增按钮，跳过">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="系统管理中心 › TC-SYS-LOG-001 操作日志列表可按时间范围查询" classname="system_manage.spec.ts">
+<properties>
+<property name="skip" value="未找到时间筛选控件，跳过">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="user_manage.spec.ts" timestamp="2026-10-14T04:45:26.522Z" hostname="chromium" tests="9" failures="0" skipped="0" time="43.105" errors="0">
+<testcase name="账号管理 › TC-USER-001 账号列表正常加载且包含 admin 账号" classname="user_manage.spec.ts" time="1.495">
+</testcase>
+<testcase name="账号管理 › TC-USER-002 按登录帐号搜索可过滤出目标账号" classname="user_manage.spec.ts" time="4.201">
+</testcase>
+<testcase name="账号管理 › TC-USER-003 搜索不存在的账号返回空列表" classname="user_manage.spec.ts" time="4.05">
+</testcase>
+<testcase name="账号管理 › TC-USER-004 点击&quot;人员新增&quot;打开新建抽屉表单" classname="user_manage.spec.ts" time="1.959">
+</testcase>
+<testcase name="账号管理 › TC-USER-005 点击行&quot;查看&quot;图标进入用户详情页" classname="user_manage.spec.ts" time="1.691">
+</testcase>
+<testcase name="账号管理 › TC-USER-006 列表分页控件正常工作" classname="user_manage.spec.ts" time="4.067">
+</testcase>
+<testcase name="账号管理 › TC-USER-007 真实新增人员成功并可检索（写闭环）" classname="user_manage.spec.ts" time="11.529">
+</testcase>
+<testcase name="账号管理 › TC-USER-008 人员新增空表单提交触发必填项校验" classname="user_manage.spec.ts" time="3.999">
+</testcase>
+<testcase name="账号管理 › TC-USER-009 人员新增超长输入触发长度校验（描述&gt;256字符）" classname="user_manage.spec.ts" time="10.114">
+</testcase>
+</testsuite>
+</testsuites>

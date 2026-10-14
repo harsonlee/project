@@ -1,0 +1,17 @@
+{
+  "name": "scmp-web-autotest",
+  "version": "1.0.0",
+  "description": "数据流转安全管理平台 Web 端自动化测试项目（Playwright + pytest）",
+  "private": true,
+  "scripts": {
+    "test:e2e": "npx playwright test",
+    "test:e2e:headed": "npx playwright test --headed",
+    "test:e2e:report": "npx playwright show-report",
+    "test:api": "python3 -m pytest tests/api -v",
+    "test:all": "npm run test:e2e && python3 -m pytest tests/api -v",
+    "report": "python3 scripts/generate_report.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}
